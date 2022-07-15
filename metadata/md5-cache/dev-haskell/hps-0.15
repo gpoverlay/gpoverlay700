@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm setup test
+DEPEND=>=dev-haskell/hcg-minus-0.15:=[profile?] <dev-haskell/hcg-minus-0.16:=[profile?] >=dev-lang/ghc-7.4.1:= build-exec? ( dev-haskell/random:=[profile?] ) >=dev-haskell/cabal-1.8 hscolour? ( dev-haskell/hscolour )
+DESCRIPTION=Haskell Postscript
+EAPI=8
+HOMEPAGE=https://hackage.haskell.org/package/hps
+INHERIT=haskell-cabal
+IUSE=build-exec doc hscolour profile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-haskell/hcg-minus-0.15:=[profile?] <dev-haskell/hcg-minus-0.16:=[profile?] >=dev-lang/ghc-7.4.1:= build-exec? ( dev-haskell/random:=[profile?] )
+SLOT=0/0.15
+SRC_URI=https://hackage.haskell.org/package/hps-0.15/hps-0.15.tar.gz
+_eclasses_=ghc-package	dbe1a8d17cacb390a3df7bbba6617679	haskell-cabal	81cdafdd21e27dfc13f0f7b4947fa145	multilib	4fbbbc98f236f1b43acd99476bc3cd85	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb
+_md5_=cd8eb43f676f05a4a08bddea559febd8

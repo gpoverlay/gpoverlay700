@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Miscellaneous commands used on Darwin/Mac OS X systems, Lion 10.7
+EAPI=6
+HOMEPAGE=http://www.opensource.apple.com/
+INHERIT=toolchain-funcs epatch
+KEYWORDS=~ppc-macos ~x64-macos
+LICENSE=BSD
+SLOT=0
+SRC_URI=http://www.opensource.apple.com/darwinsource/tarballs/other/misc_cmds-31.tar.gz http://www.opensource.apple.com/darwinsource/tarballs/other/shell_cmds-162.tar.gz http://www.opensource.apple.com/darwinsource/tarballs/other/developer_cmds-55.tar.gz
+_eclasses_=epatch	6af347b3c27477b48efaaa1261a0dd69	estack	055c42df72f76a4f45ec92b35e83cd56	multilib	4fbbbc98f236f1b43acd99476bc3cd85	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb
+_md5_=b80dddd5827926be126ea36a200d784b

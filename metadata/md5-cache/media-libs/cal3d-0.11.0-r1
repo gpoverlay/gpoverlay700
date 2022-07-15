@@ -1,0 +1,13 @@
+BDEPEND=doc? ( app-doc/doxygen app-text/docbook-sgml-utils ) sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile configure prepare
+DESCRIPTION=Cal3D is a skeletal based character animation library
+EAPI=8
+HOMEPAGE=https://mp3butcher.github.io/Cal3D/
+INHERIT=autotools
+IUSE=16bit-indices debug doc
+KEYWORDS=amd64 ~ia64 ppc x86
+LICENSE=LGPL-2.1
+SLOT=0
+SRC_URI=http://download.gna.org/cal3d/sources/cal3d-0.11.0.tar.gz
+_eclasses_=autotools	2fd69a56a527d12409ba43c733b7ac8f	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	multilib	4fbbbc98f236f1b43acd99476bc3cd85	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb
+_md5_=000fa6957526b322e8602890dcf90daf
